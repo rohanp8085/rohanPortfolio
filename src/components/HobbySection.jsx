@@ -26,17 +26,17 @@ const HobbySection = () => {
          <span >
             <h4>Web Design</h4>
             <hr /> <hr className='newline' />
-            <h3 className='present webpresent'>83%</h3>
+            <h3 className='present webpresent'>85%</h3>
          </span>
          <span>
             <h4>HTML/CSS</h4>
             <hr /> <hr className='newline html' />
-            <h3 className='present htmlpresent'>85%</h3>
+            <h3 className='present htmlpresent'>90%</h3>
          </span>
          <span>
             <h4>Javascript</h4>
             <hr /> <hr className='newline js' />
-            <h3 className='present jspresent'>50%</h3>
+            <h3 className='present jspresent'>70%</h3>
          </span>
        </div>
        <div  data-aos="fade-up"

@@ -1528,7 +1528,7 @@ label{
 
 @media( max-width:768px){
  
-
+  
   .portfolio{
     font-size: 20px;
   }
@@ -1684,7 +1684,21 @@ label{
  .Bootstrappresent ,.htmlpresent,.reactpresent,.webpresent,.jspresent{
   right: -20px;
  }
- 
+ .html{
+  width: 280px;
+ }
+ .js{
+  width: 210px;
+ }
+ .react{
+  width:270px;
+ }
+ .Bootstrap{
+  width: 240px;
+ }
+ .matarial{
+  width: 220px;
+ }
 .diamond-sec{
   display: none;
 }
