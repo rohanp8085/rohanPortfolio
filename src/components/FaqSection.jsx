@@ -77,10 +77,8 @@ const FaqSection = () => {
       </div>
 
        </div>
-       <div data-aos="fade-up"
-    data-aos-duration="1800" className="faqimage-sec">
-        <img data-aos="fade-up"
-    data-aos-duration="1800" className='faqimg' src={faq} alt="" />
+       <div  className="faqimage-sec">
+        <img  className='faqimg' src={faq} alt="" />
        </div>
     </div>
   )
