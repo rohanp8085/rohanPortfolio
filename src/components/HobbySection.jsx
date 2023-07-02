@@ -31,12 +31,12 @@ const HobbySection = () => {
          <span>
             <h4>HTML/CSS</h4>
             <hr /> <hr className='newline html' />
-            <h3 className='present htmlpresent'>83%</h3>
+            <h3 className='present htmlpresent'>85%</h3>
          </span>
          <span>
-            <h4>HTML/CSS</h4>
+            <h4>Javascript</h4>
             <hr /> <hr className='newline js' />
-            <h3 className='present jspresent'>83%</h3>
+            <h3 className='present jspresent'>50%</h3>
          </span>
        </div>
        <div  data-aos="fade-up"
@@ -44,17 +44,17 @@ const HobbySection = () => {
        <span>
             <h4>React JS</h4>
             <hr /> <hr className='newline react' />
-            <h3 className='present reactpresent'>83%</h3>
+            <h3 className='present reactpresent'>90%</h3>
          </span>
          <span>
             <h4>Bootstrap</h4>
             <hr /> <hr className='newline Bootstrap' />
-            <h3 className='present Bootstrappresent'>83%</h3>
+            <h3 className='present Bootstrappresent'>85%</h3>
          </span>
          <span>
             <h4>Material UI</h4>
-            <hr /> <hr className='newline js' />
-            <h3 className='present jspresent'>83%</h3>
+            <hr /> <hr className='newline matarial' />
+            <h3 className='present jspresent'>80%</h3>
          </span>
        </div>
      

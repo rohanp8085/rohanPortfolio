@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import Box from '@mui/material/Box';
-import cercle from '../assets/cercleimage.jpeg'
+import cercle from '../assets/cercleimage.jpg'
 import { AnimatePresence } from 'framer-motion'
 import Typewriter from 'typewriter-effect'
 import {motion} from 'framer-motion'

@@ -753,20 +753,27 @@ hr{
   top: 120px;
 }
 .js{
-  top: 220px;
+  top: 224px;
+  width: 350px;
+}
+.matarial{
+  top: 224px;
+  width: 450px;
 }
 .jspresent{
   top: 200px;
   
 }
 .react{
-  top: 61px;
+  top: 62px;
+  width:460px;
 }
 .reactpresent{
   top: 40px;
 }
 .Bootstrap{
-  top: 140px;
+  top: 143px;
+  width: 430px;
 }
 .Bootstrappresent{
   top: 120px;
@@ -826,6 +833,7 @@ hr{
   /* align-items: center; */
   
   width: 100%;
+  
  
   
   justify-content: center;
@@ -864,7 +872,7 @@ hr{
 .exp-caption{
   width: 700px;
   border: 1px solid rgb(221, 216, 216);
-  height: 170px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1547,11 +1555,11 @@ label{
     top: -180px;
   }
   .cercleimage{
-    width: 360px;
-    height: 360px;
+    width: 340px;
+    height: 340px;
   }
   .cercle{
-    width: 300px;
+    width: 350px;
     height: 300px;
   }
   .web-text{
@@ -1733,13 +1741,18 @@ figure.snip0016 a{
 .project-navigation{
   width: 100%;
   align-items: center;
+  justify-content: center;
+  display: flex;
   height: 120px;
-  /* border: 5px solid green; */
+  
+
+  
   
   
 }
 .project-btn{
-  padding: 0;
+  padding: 0px 5px;
+  font-size: 10px;
 }
 figure.snip0016 p{
   display: none;
