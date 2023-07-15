@@ -36,7 +36,7 @@ const Home = () => {
      <div id='home' className='container'>
      <nav className={navbar ? 'navbar active' : 'navbar'} >
       
-        <h1 className='portfolio'> <hr className='logo-hr' /> <hr  className='logo-hrtwo'/>ROHAN <p className='portfoliopp'>Portfolio</p></h1>
+        <h1 className='portfolio'> ROHAN <p className='portfoliopp'>Portfolio</p></h1>
         <a className='ContactNumber' href="tel: +918085020978">
         <h3   style={{display:"flex",alignItems:"center",justifyContent:"center",width:"100%"}}>
           < IoCall style={{marginRight:"12px"}}/>  (+91) 8085020978
@@ -57,12 +57,14 @@ const Home = () => {
        whileInView={{opacity:1, scale:1}}
        transition={{duration:0.8}} 
         className='cercleimage' src={cercle} alt="" />
-        < motion.button
+       <a href="#contact">
+       < motion.button 
          
-        initial ={{opacity : 0, scale : 0,}}
-        whileInView={{opacity:1, scale:1}}
-        transition={{duration:0.8}}
-         className='hy-btn ' > <img className='handimage ' src="https://assets.website-files.com/609cb31ed014c633e4f63d41/609e2ff8b5f04c9dfa1b1eaf_emoji-hello.png" alt="" /> Hi there!</motion.button>
+         initial ={{opacity : 0, scale : 0,}}
+         whileInView={{opacity:1, scale:1}}
+         transition={{duration:0.8}}
+          className='hy-btn ' > <img className='handimage ' src="https://assets.website-files.com/609cb31ed014c633e4f63d41/609e2ff8b5f04c9dfa1b1eaf_emoji-hello.png" alt="" /> Hi there!</motion.button>
+       </a>
        <motion.button 
         
        initial ={{opacity : 0, scale : 0,}}
@@ -74,7 +76,7 @@ const Home = () => {
        initial ={{opacity : 0, scale : 0,}}
        whileInView={{opacity:1, scale:1}}
        transition={{duration:0.8}}
-       className='thrid-btn res-btn ' > <img className='handimage' src="https://assets.website-files.com/609cb31ed014c633e4f63d41/609e2ff8b33bcefa7371b0c8_emoji-target.png" alt="" />Feelancer</motion.button>
+       className='thrid-btn res-btn ' > <img className='handimage' src="https://assets.website-files.com/609cb31ed014c633e4f63d41/609e2ff8b33bcefa7371b0c8_emoji-target.png" alt="" />Freelancer</motion.button>
        <motion.button
         
        initial ={{opacity : 0, scale : 0,}}
@@ -111,10 +113,9 @@ const Home = () => {
             deleteSpeed : 80,
             strings : [
               "Full Stack Developer",,
-              "Frontend Developer",
-              "Web Designer",
-              "Thinker ",
-              "Creative ",
+              "Photographer",
+              "Freelancer",
+             
               
             ]
             }}/></h1>

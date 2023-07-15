@@ -46,7 +46,7 @@ const FooterSection = () => {
                   <IoCall/>
                 </span>
                 <h4 className='myplace'>CALL ME</h4>
-                <p className='address' style={{textAlign:"center"}}> <a className='social-a'  href="">(+91)-8085020978</a> <br />  <a className='social-a'  href="">  (+91)-8305881411 </a> </p>
+                <p className='address' > <a className='social-a'  href="tel: +918085020978" >(+91)-8085020978</a> <br />  <a className='social-a'  href="tel: +918305881411">  (+91)-8305881411 </a> </p>
 
               </div>
             </div>
@@ -97,7 +97,7 @@ const FooterSection = () => {
     data-aos-duration="1800" className='text-field'>
          <div data-aos="fade-up"
     data-aos-duration="1800" className='text-box'>
-          <span data-aos="flip-left" data-aos-duration="3000" className='small-box'><GiPlatform/></span>
+          <span className='small-box'><GiPlatform/></span>
            <form action='https://formspree.io/f/mpzgakpn' target='_blank' method='post' onSubmit={handleSubmit}>
               <h4 data-aos="fade-up"
                  data-aos-duration="1800" style={{color:"white" , margin:"25px"}}>LEAVE ME A MESSAGE</h4>
