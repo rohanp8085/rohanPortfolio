@@ -23,6 +23,7 @@ import NavigationButton from './components/NavigationButton'
 
 
 
+
 const App = () => {
 const [loading , setLoading] = useState(false)
 
@@ -71,6 +72,7 @@ useEffect(()=>{
    <HiremeSection/>
    <FaqSection/>
    <FooterSection/>
+   
   {/* <BasicSpeedDial/> */}
   <NavigationButton/>
   <ToastContainer
@@ -84,6 +86,7 @@ useEffect(()=>{
   draggable
   pauseOnHover
   theme="dark"/>
+ 
    
    </>
 

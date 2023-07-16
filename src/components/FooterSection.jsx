@@ -11,6 +11,7 @@ import {  Button } from '@mui/material'
 import { toast } from 'react-toastify';
 
 
+
 const FooterSection = () => {
 
    const handleSubmit = () =>{
@@ -137,8 +138,10 @@ const FooterSection = () => {
          </div>
          
         </div>
+       
         
     </div>
+    
   
     </>
   

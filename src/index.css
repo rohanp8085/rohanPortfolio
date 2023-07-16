@@ -705,7 +705,7 @@ margin: 0px 0px 0px 18px;
   flex-direction: column;
   
   width: 100%;
-  height: 281px;
+  height: 350px;
   position: relative;
   /* border: 1px solid red; */
 }
@@ -790,9 +790,9 @@ hr{
   /* justify-content: flex-start; */
   /* width: 300px; */
   /* margin-left: 50px; */
-  padding: 0px 80px;
+  padding: 0px 60px;
   
-  height: 180px;
+  min-height: 150px;
 }
 
 .downloadbtn{
@@ -1209,6 +1209,7 @@ figure.snip0016:hover figcaption a{
 .accordian-text{
   color: #716d6d;
 }
+
 .footer{
   
   padding-top: 150px;
@@ -1534,9 +1535,15 @@ label{
   display: none;
 }
 
+span.MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary.MuiLinearProgress-bar1Determinate.css-5xe99f-MuiLinearProgress-bar1{
+  background-color: rgb(239, 206, 16);
+}
 
+
+p.MuiTypography-root.MuiTypography-body2.css-r40f8v-MuiTypography-root{
+  color: black;
   
-  
+}
   
   
  
@@ -1680,12 +1687,14 @@ label{
  .hobby-sec{
   align-items: center;
   min-width: 100%;
+  /* height: 250px; */
+  
  }
  .Title{
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  margin-top: 40px;
-  height:50px;
+  /* margin-top: 40px; */
+  /* min-height:50px; */
   
  }
  #skill{
