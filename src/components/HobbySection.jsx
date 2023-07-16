@@ -32,6 +32,7 @@ function LinearProgressWithLabel(props) {
    value: PropTypes.number.isRequired,
  };
  
+ 
 const HobbySection = () => {
    const [progress, setProgress] = React.useState(10);
 
@@ -66,16 +67,16 @@ const HobbySection = () => {
       
        <Box sx={{ width: '95%' }}>
        <h4>Html/css</h4>
-       <LinearProgressWithLabel  value={progress}   />
+       <LinearProgressWithLabel  value={85}   />
        </Box>
        <Box sx={{ width: '95%' }}>
        <h4>JavaScript</h4>
-       < LinearProgressWithLabel  value={progress}  />
+       < LinearProgressWithLabel  value={70}  />
        </Box>
       
        <Box sx={{ width: '95%' }}>
        <h4>React js</h4>
-       < LinearProgressWithLabel  value={progress} />
+       < LinearProgressWithLabel  value={85} />
        </Box>
         
          
@@ -84,15 +85,15 @@ const HobbySection = () => {
     data-aos-duration="1500" className='hobby-sec'>
        <Box sx={{ width: '95%' }}>
        <h4>Next js</h4>
-       < LinearProgressWithLabel  value={progress} />
+       < LinearProgressWithLabel  value={80} />
        </Box>
        <Box sx={{ width: '95%' }}>
        <h4>Node Js</h4>
-       < LinearProgressWithLabel  value={progress} />
+       < LinearProgressWithLabel  value={70} />
        </Box>  
        <Box sx={{ width: '95%' }}>
        <h4>Express js</h4>
-       < LinearProgressWithLabel  value={progress} />
+       < LinearProgressWithLabel  value={75} />
        </Box>  
        </div>
      
