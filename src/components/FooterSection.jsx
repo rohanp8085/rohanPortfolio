@@ -100,12 +100,9 @@ const FooterSection = () => {
     data-aos-duration="1800" className='text-box'>
           <span className='small-box'><GiPlatform/></span>
            <form action='https://formspree.io/f/mpzgakpn' target='_blank' method='post' onSubmit={handleSubmit}>
-              <h4 data-aos="fade-up"
-                 data-aos-duration="1800" style={{color:"white" , margin:"25px"}}>LEAVE ME A MESSAGE</h4>
-              <hr data-aos="fade-up"
-    data-aos-duration="1800" className='input-hr' />
-              <p data-aos="fade-up"
-               data-aos-duration="1800"  style={{color:"white" , marginLeft:"25px",marginTop:"35px",fontSize:"13px"}}>You can ask me about anything here, just type your name and e-mail and I'll answer you as soon as possible</p>
+              <h4 style={{color:"white" , margin:"25px"}}>LEAVE ME A MESSAGE</h4>
+              <hr  className='input-hr' />
+              <p   style={{color:"white" , marginLeft:"25px",marginTop:"35px",fontSize:"13px"}}>You can ask me about anything here, just type your name and e-mail and I'll answer you as soon as possible</p>
                <div className='input-sec'>
                 <button className='input-btn'><BsFillPersonFill/></button>
                <span style={{display:"flex",flexDirection:"column"}}>

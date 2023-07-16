@@ -67,7 +67,7 @@ const HobbySection = () => {
       
        <Box sx={{ width: '95%' }}>
        <h4>Html/css</h4>
-       <LinearProgressWithLabel  value={85}   />
+       <LinearProgressWithLabel id="progress"  value={85}      />
        </Box>
        <Box sx={{ width: '95%' }}>
        <h4>JavaScript</h4>
