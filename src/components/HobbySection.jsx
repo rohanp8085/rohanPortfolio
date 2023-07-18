@@ -67,16 +67,16 @@ const HobbySection = () => {
       
        <Box sx={{ width: '95%' }}>
        <h4>Html/css</h4>
-       <LinearProgressWithLabel color="success"  value={85}      />
+       <LinearProgressWithLabel   value={85}      />
        </Box>
        <Box sx={{ width: '95%' }}>
        <h4>JavaScript</h4>
-       < LinearProgressWithLabel color="success"  value={70}  />
+       < LinearProgressWithLabel   value={70}  />
        </Box>
       
        <Box sx={{ width: '95%' }}>
        <h4>React js</h4>
-       < LinearProgressWithLabel color="success"  value={85} />
+       < LinearProgressWithLabel  value={85} />
        </Box>
         
          
@@ -85,15 +85,15 @@ const HobbySection = () => {
     data-aos-duration="1500" className='hobby-sec'>
        <Box sx={{ width: '95%' }}>
        <h4>Next js</h4>
-       < LinearProgressWithLabel color="success" value={80} />
+       < LinearProgressWithLabel  value={80} />
        </Box>
        <Box sx={{ width: '95%' }}>
        <h4>Node Js</h4>
-       < LinearProgressWithLabel color="success"  value={70} />
+       < LinearProgressWithLabel   value={70} />
        </Box>  
        <Box sx={{ width: '95%' }}>
        <h4>Express js</h4>
-       < LinearProgressWithLabel color="success"  value={75} />
+       < LinearProgressWithLabel   value={75} />
        </Box>  
        </div>
      
