@@ -1542,7 +1542,12 @@ span.MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary.MuiLinearProgress-b
 /* span.MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary.MuiLinearProgress-bar1Determinate.css-t752vm{
   background-color: rgb(239, 206, 16);
 } */
-
+.css-t752v{
+  background-color: rgb(239, 206, 16);
+}
+span.MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary.MuiLinearProgress-bar1Determinate.css-t752vm{
+  background-color: rgb(239, 206, 16);
+}
 p.MuiTypography-root.MuiTypography-body2.css-r40f8v-MuiTypography-root{
   color: black;
   
