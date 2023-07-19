@@ -112,12 +112,9 @@ const Home = () => {
             typeSpeed : 100,
             deleteSpeed : 80,
             strings : [
-              "Full Stack Developer",,
-              "Photographer",
-              "Freelancer",
-             
-              
-            ]
+              "Full Stack Developer",
+              "Frontend developer",
+          ]
             }}/></h1>
      </span>
     <AnimatePresence><motion.p
