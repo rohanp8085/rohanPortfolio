@@ -93,8 +93,11 @@ const FooterSection = () => {
               </div>
             </span>
             </span>
+           
+            
         </div>
-        <div data-aos="fade-up"
+        
+                <div data-aos="fade-up"
     data-aos-duration="1800" className='text-field'>
          <div data-aos="fade-up"
     data-aos-duration="1800" className='text-box'>
@@ -138,6 +141,7 @@ const FooterSection = () => {
        
         
     </div>
+    
     
   
     </>
